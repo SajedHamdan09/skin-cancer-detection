@@ -30,7 +30,16 @@ skin_cancer_image_Detection/       # Repository root
 ├── images/                        # Contains the dataset
 │   ├── HAM10000_images_part_1/    # First half of the image dataset
 │   └── HAM10000_images_part_2/    # Second half of the image dataset
+|   image_pre_processing.ipynb     # pre-processing code
 └── HAM10000_metadata/             # Metadata file for the dataset
+```
+
+## Installation
+
+Before running the project, make sure to install the required dependencies using `pip`:
+
+```bash
+pip install numpy pandas seaborn Pillow scikit-image tqdm matplotlib tensorflow imageio
 ```
 
 ## Note:
