@@ -33,6 +33,14 @@ skin_cancer_image_Detection/       # Repository root
 └── HAM10000_metadata/             # Metadata file for the dataset
 ```
 
+## Installation
+
+Before running the project, make sure to install the required dependencies using `pip`:
+
+```bash
+pip install numpy pandas seaborn Pillow scikit-image tqdm matplotlib tensorflow
+```
+
 ## Note:
 
 1. Ensure you have at least 30 GB of free disk space before running the project. The dataset and saved models consume a significant amount of storage.
