@@ -39,7 +39,7 @@ skin-cancer-detection/             # Repository root
 Before running the project, make sure to install the required dependencies using `pip`:
 
 ```bash
-pip install numpy pandas seaborn Pillow scikit-image tqdm matplotlib tensorflow imageio
+pip install numpy pandas seaborn Pillow scikit-learn scikit-image tqdm matplotlib tensorflow imageio
 ```
 
 ## Note:
