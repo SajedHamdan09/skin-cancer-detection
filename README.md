@@ -25,7 +25,7 @@ The dataset used for this project is sourced from the [Harvard Dataverse - HAM10
 Please follow the directory structure below to ensure the project runs correctly:
 
 ```text
-skin_cancer_image_Detection/       # Repository root
+skin-cancer-detection/             # Repository root
 ├── CNN/                           # Folder containing model training scripts
 ├── images/                        # Contains the dataset
 │   ├── HAM10000_images_part_1/    # First half of the image dataset
