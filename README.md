@@ -25,12 +25,12 @@ The dataset used for this project is sourced from the [Harvard Dataverse - HAM10
 Please follow the directory structure below to ensure the project runs correctly:
 
 ```text
-skin_cancer_image_Detection/       # Repository root
+skin-cancer-detection/             # Repository root
 ├── CNN/                           # Folder containing model training scripts
 ├── images/                        # Contains the dataset
 │   ├── HAM10000_images_part_1/    # First half of the image dataset
 │   └── HAM10000_images_part_2/    # Second half of the image dataset
-|   image_pre_processing.ipynb     # pre-processing code
+|   image_pre_processing.ipynb/    # pre-processing code
 └── HAM10000_metadata/             # Metadata file for the dataset
 ```
 
@@ -39,7 +39,7 @@ skin_cancer_image_Detection/       # Repository root
 Before running the project, make sure to install the required dependencies using `pip`:
 
 ```bash
-pip install numpy pandas seaborn Pillow scikit-image tqdm matplotlib tensorflow imageio
+pip install numpy pandas seaborn Pillow scikit-learn scikit-image tqdm matplotlib tensorflow imageio
 ```
 
 ## Note:
