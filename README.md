@@ -10,12 +10,12 @@ The dataset used for this project is sourced from the [Harvard Dataverse - HAM10
 
 1. Visit the [HAM10000 Dataset on Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DBW86T).
  
-![Screenshot_2025-05-02_22-59-18](https://github.com/user-attachments/assets/c6276769-a386-42ad-a1a2-ff11fbcd73c2)
+![ScreenShot](https://raw.githubusercontent.com/SajedHamdan09/skin-cancer-detection/main/setup-images/image-1.png)
 
 
 2. Scroll down and select the files shown in the image below.
 
-![WhatsApp Image 2025-05-02 at 11 03 58 PM](https://github.com/user-attachments/assets/24c7a4be-dc20-4880-9d73-215f2ae20e69)
+![ScreenShot](https://raw.githubusercontent.com/SajedHamdan09/skin-cancer-detection/main/setup-images/image-2.jpeg)
 
 
 3. Extract the downloaded ZIP file to access the images and metadata.
