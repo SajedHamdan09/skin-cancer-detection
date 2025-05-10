@@ -42,7 +42,7 @@ Before running the project, make sure to install the required dependencies using
 1. Setup Virtual Environment: python3.10 -m venv myvenv
 2. Activate Virtual Enviroment: - source myvenv/bin/activate(linux/macOS)
                                 - myvenv\Scripts\activate.bat(Windows)
-2. pip install numpy pandas seaborn Pillow scikit-learn scikit-image tqdm matplotlib tensorflow imageio
+2. Install Libraries: pip install numpy pandas seaborn Pillow scikit-learn scikit-image tqdm matplotlib tensorflow imageio
 ```
 
 ## Note:
