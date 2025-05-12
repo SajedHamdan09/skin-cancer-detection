@@ -26,7 +26,8 @@ Please follow the directory structure below to ensure the project runs correctly
 
 ```text
 skin-cancer-detection/             # Repository root
-├── CNN/                           # Folder containing model training scripts
+├── CNN/                           # Folder containing CNN training scripts
+├── GDL/                           # Folder containing GDL training scripts
 ├── images/                        # Contains the dataset
 │   ├── HAM10000_images_part_1/    # First half of the image dataset
 │   └── HAM10000_images_part_2/    # Second half of the image dataset
