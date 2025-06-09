@@ -25,14 +25,20 @@ The dataset used for this project is sourced from the [Harvard Dataverse - HAM10
 Please follow the directory structure below to ensure the project runs correctly:
 
 ```text
-skin-cancer-detection/             # Repository root
-├── CNN/                           # Folder containing CNN training scripts
-├── GDL/                           # Folder containing GDL training scripts
-├── images/                        # Contains the dataset
-│   ├── HAM10000_images_part_1/    # First half of the image dataset
-│   └── HAM10000_images_part_2/    # Second half of the image dataset
-|   image_pre_processing.ipynb/    # pre-processing code
-└── HAM10000_metadata/             # Metadata file for the dataset
+skin-cancer-detection/                               # Repository root
+├── CNN/                                             # Folder containing CNN training scripts
+├── GDL/                                             # Folder containing GDL training scripts
+├── SENN/                                            # Folder containing SENN training scripts
+├── TDA/                                             # Folder containing TDA training scripts
+├── CNN+TDA/                                         # Folder containing CNN+TDA training scripts
+|   ├── new_dataset/                                 # Folder containing new dataset
+|   |   ├── image_pre_processing.ipynb               # pre-processing code for new data
+|   |   └── ISBI2016_ISIC_Part3B_Training_Data/      # Folder containing image dataset
+├── images/                                          # Contains the dataset
+│   ├── HAM10000_images_part_1/                      # First half of the image dataset
+│   └── HAM10000_images_part_2/                      # Second half of the image dataset
+|   image_pre_processing.ipynb                       # pre-processing code
+└── HAM10000_metadata/                               # Metadata file for the dataset
 ```
 
 ## Installation
